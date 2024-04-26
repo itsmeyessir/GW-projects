@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcaCHEMi</title>
+    <link rel ="stylesheet" href="messagestyle.css">
+    <link href = 'https://unpkg.com/boxicons@latest/css/boxicons.min.css' rel = 'stylesheet'>
+</head>
+<body>
+    <nav id="sidebar">
+        <button id="toggle-button">
+        <img src="images/burger.png" alt="Menu"> 
+        </button>
+        <ul class="nav-list">
+            <li id = "home"><a href="home.html"><img src="images/home.png" ><span> Home</span></a> </li>
+            <li id = "learn"><a href="search.html"><img src="images/learn.png" > <span> Learn</span></a> </li>
+            <li id = "quiz"><a href="settings.html"><img src="images/quiz.png" ><span> Quiz</span></a> </li>
+            <li id = "questions"><a href="messages.html"><img src="images/questions.png"><span> Questions</span></a> </li>
+            <li id = "profile"><a href="profile.html"><img src="images/profile.png"><span> Profile</span></a> </li>
+        </ul>
+    </nav>
+    <div id="overlay"></div>
+    
+    <script src="script.js"></script> 
+
+    <div class="container">
+        <div class="header"> 
+            <h1>Got a question for the makers?</h1>
+        </div>
+        <form action="" class="wrapper"> 
+            <label>Your Email</label>
+            <input type="email" name="email" placeholder="Email" class="input-box" required>
+
+            <label>Message:</label>
+            <textarea name="message" placeholder="Type here..." class="input-box" required></textarea>
+
+            <button type="submit">Submit Concern</button>
+        </form>
+    </div>
+
+    <!-- SCRAPPED -->
+    <!-- <div class="wrapper">
+        <form action="">
+            <div class="email-box">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="message-box">
+                <label>Message:</label>
+                <input type="text" id="question" name="question" placeholder="Type your question here">
+            </div>
+
+            <button type="submit">Submit Concern</button>
+        </form>
+    </div> -->
+</body>
+</html>

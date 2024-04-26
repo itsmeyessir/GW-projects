@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcaCHEMi</title>
+    <link rel ="stylesheet" href="profstyle.css">
+    <link href = 'https://unpkg.com/boxicons@latest/css/boxicons.min.css' rel = 'stylesheet'>
+</head>
+<body>
+    <nav id="sidebar">
+        <button id="toggle-button">
+        <img src="images/burger.png" alt="Menu"> 
+        </button>
+        <ul class="nav-list">
+            <li id = "home"><a href="home.html"><img src="images/home.png" ><span> Home</span></a> </li>
+            <li id = "learn"><a href="search.html"><img src="images/learn.png" > <span> Learn</span></a> </li>
+            <li id = "quiz"><a href="settings.html"><img src="images/quiz.png" ><span> Quiz</span></a> </li>
+            <li id = "questions"><a href="messages.html"><img src="images/questions.png"><span> Questions</span></a> </li>
+            <li id = "profile"><a href="profile.html"><img src="images/profile.png"><span> Profile</span></a> </li>
+        </ul>
+    </nav>
+    <div id="overlay"></div>
+    
+    <script src="script.js"></script> 
+    <img class="prof-image" src="images/profimage.png" alt="">
+    
+    <div class="wrapper">
+        <form action=""> 
+            <h1>Profile Settings</h1>
+            <div class="wrapper">
+
+                <div id="horizontal-line"></div>
+                <h2>Personal Details</h2>
+                <div class="input-box">
+                    <label>Username</label>
+                    <input type="text" placeholder="" required>
+                    <i class='bx bxs-edit-alt' ></i>   
+                </div>
+                <div class="input-box">
+                    <label>Email</label>
+                    <input type="email" placeholder="" required>
+                    <i class='bx bxs-edit-alt' ></i>
+                </div>
+                <div class="input-box">
+                    <label>Password</label>
+                    <input type="password" placeholder="" required>
+                    <i class='bx bxs-edit-alt' ></i>
+                </div>
+
+                <div id="horizontal-line2"></div>
+                <h3>Education</h3>
+                <div class="input-box">
+                    <label>Grade-level</label>
+                    <input type="grade" placeholder="" required>
+                    <i class='bx bxs-edit-alt' ></i>
+                </div>
+                
+                <div id="horizontal-line3"></div>
+                <h4>Academic Performance</h4>
+                <div class="input-box">
+                    <label>Grade</label>
+                    <input type="text" placeholder="" required>
+                    <i class='bx bxs-edit-alt' ></i>
+                </div>
+        
+            <button type="submit" class="upd">Update Information</button>
+            <button type="submit" class="logout">Sign Out</button>
+        </form>
+    </div>
+</body>
+</html>
