@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+  }
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    font-size: 4vw; /* Responsive font size */
+    color: #8a86ab;
+    text-align: center; /* Center align the heading */
+    margin-top: 5vh; /* Adjust spacing from the top */
+}
+
+.form-box {
+    width: 90%;
+    max-width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: #8a86ab;
+    border-radius: 2rem;
+    padding: 50px 60px 100px;
+    text-align: center;
+    box-shadow: 0 20px 35px #8a86ab;
+}
+.form-box h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #8a86ab;
+    position: relative;
+}
+  
+.form-group input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 23px;
+    border-radius: 20px;
+    background: #d7d5ed;
+    color: #8a86ab;
+    margin-left: 20px;
+}
+.form-btn input{
+    width: 92%;
+    background: #8a86ab;
+    border: none;
+    color: #fff;
+    margin: 23px 18px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-btn input:hover {
+    background: #777;
+}
+
+button {
+    font-size: 1rem;
+    margin-top: 23px;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: #8a86ab;
+}
+button:hover {
+    background: #8a86ab;
+  }
+
+.form-group{
+    margin-bottom:30px;
+}
+
+.form-box p{
+    color: #000;
+    margin-top: 23px;
+  }
+.form-box a{
+    color: #89c6ff;
+    text-decoration: none;
+  }
